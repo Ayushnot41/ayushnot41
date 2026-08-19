@@ -1,59 +1,59 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 220" width="100%" height="220" font-family="'Segoe UI', system-ui, -apple-system, sans-serif">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 230" width="100%" height="230" font-family="'Segoe UI', system-ui, -apple-system, sans-serif">
   <defs>
     <linearGradient id="stat-bg" x1="0%" y1="0%" x2="0%" y2="100%">
       <stop offset="0%" stop-color="#111722"/>
-      <stop offset="100%" stop-color="#0d1117"/>
+      <stop offset="1" stop-color="#0d1117"/>
     </linearGradient>
   </defs>
 
-  <!-- Left Card: Profile Metrics -->
-  <rect x="0" y="0" width="410" height="220" rx="12" fill="url(#stat-bg)" stroke="#30363d" stroke-width="1"/>
+  <!-- Left Card: Real Profile Analytics -->
+  <rect x="0" y="0" width="410" height="230" rx="12" fill="url(#stat-bg)" stroke="#30363d" stroke-width="1"/>
   <rect x="15" y="15" width="380" height="30" rx="6" fill="#161b22"/>
-  <text x="25" y="35" fill="#38bdf8" font-size="13" font-weight="bold">📊 GitHub Performance Analytics</text>
+  <text x="25" y="35" fill="#38bdf8" font-size="13" font-weight="bold">📊 GitHub Profile &amp; Project Analytics</text>
   
-  <text x="25" y="75" fill="#e2e8f0" font-size="13">📦 Total Public Repositories:</text>
-  <text x="375" y="75" fill="#4ade80" font-size="14" font-weight="bold" text-anchor="end">43</text>
+  <text x="25" y="75" fill="#e2e8f0" font-size="12.5">📦 Total Public Repositories:</text>
+  <text x="375" y="75" fill="#4ade80" font-size="13.5" font-weight="bold" text-anchor="end">43 Repos</text>
   
-  <text x="25" y="105" fill="#e2e8f0" font-size="13">⭐ Total Stars &amp; Clones:</text>
-  <text x="375" y="105" fill="#fbbf24" font-size="14" font-weight="bold" text-anchor="end">35+</text>
+  <text x="25" y="105" fill="#e2e8f0" font-size="12.5">🚀 Authored / Flagship Systems:</text>
+  <text x="375" y="105" fill="#38bdf8" font-size="13.5" font-weight="bold" text-anchor="end">11 Projects</text>
   
-  <text x="25" y="135" fill="#e2e8f0" font-size="13">🔥 Total Year Contributions:</text>
-  <text x="375" y="135" fill="#38bdf8" font-size="14" font-weight="bold" text-anchor="end">320+</text>
+  <text x="25" y="135" fill="#e2e8f0" font-size="12.5">🧠 Core AI Pipeline Framework:</text>
+  <text x="375" y="135" fill="#a855f7" font-size="13.5" font-weight="bold" text-anchor="end">LangGraph + pgvector</text>
   
-  <text x="25" y="165" fill="#e2e8f0" font-size="13">⚡ Active Pull Requests &amp; Commits:</text>
-  <text x="375" y="165" fill="#a855f7" font-size="14" font-weight="bold" text-anchor="end">180+</text>
+  <text x="25" y="165" fill="#e2e8f0" font-size="12.5">⚡ Enterprise &amp; GIS Backend:</text>
+  <text x="375" y="165" fill="#fbbf24" font-size="13.5" font-weight="bold" text-anchor="end">Spring Boot + PostGIS</text>
 
-  <rect x="25" y="185" width="360" height="18" rx="9" fill="#161b22"/>
-  <rect x="25" y="185" width="340" height="18" rx="9" fill="#22c55e" opacity="0.85"/>
-  <text x="205" y="198" fill="#ffffff" font-size="10.5" font-weight="bold" text-anchor="middle">Rank: Top 10% Active Builder</text>
+  <rect x="25" y="190" width="360" height="20" rx="10" fill="#161b22"/>
+  <rect x="25" y="190" width="360" height="20" rx="10" fill="#22c55e" opacity="0.85"/>
+  <text x="205" y="204" fill="#ffffff" font-size="11" font-weight="bold" text-anchor="middle">Status: Active Multi-Agent &amp; Full-Stack Builder</text>
 
-  <!-- Right Card: Top Languages Breakdown -->
-  <rect x="430" y="0" width="410" height="220" rx="12" fill="url(#stat-bg)" stroke="#30363d" stroke-width="1"/>
+  <!-- Right Card: Exact Real Language Statistics -->
+  <rect x="430" y="0" width="410" height="230" rx="12" fill="url(#stat-bg)" stroke="#30363d" stroke-width="1"/>
   <rect x="445" y="15" width="380" height="30" rx="6" fill="#161b22"/>
-  <text x="455" y="35" fill="#a855f7" font-size="13" font-weight="bold">💻 Top Languages &amp; Ecosystem</text>
-
-  <!-- TypeScript -->
-  <text x="455" y="75" fill="#e2e8f0" font-size="12.5" font-weight="600">TypeScript (38%)</text>
-  <rect x="585" y="65" width="230" height="12" rx="6" fill="#161b22"/>
-  <rect x="585" y="65" width="87" height="12" rx="6" fill="#3178c6"/>
-
-  <!-- JavaScript -->
-  <text x="455" y="105" fill="#e2e8f0" font-size="12.5" font-weight="600">JavaScript (28%)</text>
-  <rect x="585" y="95" width="230" height="12" rx="6" fill="#161b22"/>
-  <rect x="585" y="95" width="64" height="12" rx="6" fill="#f7df1e"/>
+  <text x="455" y="35" fill="#a855f7" font-size="13" font-weight="bold">💻 Verified Codebase Language Distribution</text>
 
   <!-- Java -->
-  <text x="455" y="135" fill="#e2e8f0" font-size="12.5" font-weight="600">Java 17 (18%)</text>
-  <rect x="585" y="125" width="230" height="12" rx="6" fill="#161b22"/>
-  <rect x="585" y="125" width="41" height="12" rx="6" fill="#ed8b00"/>
+  <text x="455" y="75" fill="#e2e8f0" font-size="12" font-weight="600">Java 17 (Spring Boot) - 35.6%</text>
+  <rect x="645" y="65" width="170" height="12" rx="6" fill="#161b22"/>
+  <rect x="645" y="65" width="60" height="12" rx="6" fill="#ed8b00"/>
 
-  <!-- Python -->
-  <text x="455" y="165" fill="#e2e8f0" font-size="12.5" font-weight="600">Python (10%)</text>
-  <rect x="585" y="155" width="230" height="12" rx="6" fill="#161b22"/>
-  <rect x="585" y="155" width="23" height="12" rx="6" fill="#3776ab"/>
+  <!-- TypeScript -->
+  <text x="455" y="105" fill="#e2e8f0" font-size="12" font-weight="600">TypeScript (Next.js / AI) - 24.4%</text>
+  <rect x="645" y="95" width="170" height="12" rx="6" fill="#161b22"/>
+  <rect x="645" y="95" width="42" height="12" rx="6" fill="#3178c6"/>
 
-  <!-- Solidity & SQL -->
-  <text x="455" y="195" fill="#e2e8f0" font-size="12.5" font-weight="600">Solidity &amp; SQL (6%)</text>
-  <rect x="585" y="185" width="230" height="12" rx="6" fill="#161b22"/>
-  <rect x="585" y="185" width="15" height="12" rx="6" fill="#627eea"/>
+  <!-- HTML/CSS -->
+  <text x="455" y="135" fill="#e2e8f0" font-size="12" font-weight="600">HTML5 &amp; Tailwind CSS - 28.8%</text>
+  <rect x="645" y="125" width="170" height="12" rx="6" fill="#161b22"/>
+  <rect x="645" y="125" width="49" height="12" rx="6" fill="#06b6d4"/>
+
+  <!-- JavaScript -->
+  <text x="455" y="165" fill="#e2e8f0" font-size="12" font-weight="600">JavaScript (React 19 / Node) - 11.2%</text>
+  <rect x="645" y="155" width="170" height="12" rx="6" fill="#161b22"/>
+  <rect x="645" y="155" width="19" height="12" rx="6" fill="#f7df1e"/>
+
+  <!-- Specialized: Solidity, Python, PostGIS, SQL -->
+  <text x="455" y="195" fill="#e2e8f0" font-size="12" font-weight="600">Solidity, Python &amp; SQL (Specialized)</text>
+  <rect x="645" y="185" width="170" height="12" rx="6" fill="#161b22"/>
+  <rect x="645" y="185" width="170" height="12" rx="6" fill="#a855f7" opacity="0.8"/>
 </svg>

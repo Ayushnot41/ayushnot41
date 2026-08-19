@@ -5,7 +5,7 @@
       <stop offset="1" stop-color="#0d1117"/>
     </linearGradient>
     <linearGradient id="curve-grad" x1="0%" y1="0%" x2="0%" y2="100%">
-      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.45"/>
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.40"/>
       <stop offset="100%" stop-color="#38bdf8" stop-opacity="0.0"/>
     </linearGradient>
   </defs>
@@ -13,7 +13,7 @@
   <rect width="840" height="220" rx="12" fill="url(#actg-bg)" stroke="#30363d" stroke-width="1"/>
   
   <rect x="20" y="15" width="800" height="30" rx="6" fill="#161b22"/>
-  <text x="35" y="35" fill="#38bdf8" font-size="13" font-weight="bold">📈 GitHub Contribution &amp; Code Velocity Analysis Graph</text>
+  <text x="35" y="35" fill="#38bdf8" font-size="13" font-weight="bold">📈 Project Shipping Velocity &amp; Active Development Milestones</text>
 
   <!-- Grid Lines -->
   <line x1="50" y1="75" x2="800" y2="75" stroke="#1e293b" stroke-dasharray="3,3"/>
@@ -21,34 +21,45 @@
   <line x1="50" y1="155" x2="800" y2="155" stroke="#1e293b" stroke-dasharray="3,3"/>
 
   <!-- Y-Axis Labels -->
-  <text x="38" y="79" fill="#64748b" font-size="10" text-anchor="end">40</text>
-  <text x="38" y="119" fill="#64748b" font-size="10" text-anchor="end">20</text>
-  <text x="38" y="159" fill="#64748b" font-size="10" text-anchor="end">0</text>
+  <text x="38" y="79" fill="#64748b" font-size="10" text-anchor="end">High</text>
+  <text x="38" y="119" fill="#64748b" font-size="10" text-anchor="end">Med</text>
+  <text x="38" y="159" fill="#64748b" font-size="10" text-anchor="end">Low</text>
 
   <!-- Area Fill Path -->
-  <path d="M 50 155 Q 110 135 170 120 T 290 85 T 410 100 T 530 65 T 650 80 T 770 55 L 770 155 L 50 155 Z" fill="url(#curve-grad)"/>
+  <path d="M 50 155 Q 110 135 170 120 T 290 90 T 410 95 T 530 65 T 650 75 T 770 50 L 770 155 L 50 155 Z" fill="url(#curve-grad)"/>
 
   <!-- Stroke Line Path -->
-  <path d="M 50 155 Q 110 135 170 120 T 290 85 T 410 100 T 530 65 T 650 80 T 770 55" fill="none" stroke="#38bdf8" stroke-width="3" stroke-linecap="round"/>
+  <path d="M 50 155 Q 110 135 170 120 T 290 90 T 410 95 T 530 65 T 650 75 T 770 50" fill="none" stroke="#38bdf8" stroke-width="3" stroke-linecap="round"/>
 
-  <!-- Glowing Nodes on Key Milestones -->
-  <circle cx="170" cy="120" r="5" fill="#38bdf8" stroke="#ffffff" stroke-width="1.5"/>
-  <circle cx="290" cy="85" r="5" fill="#a855f7" stroke="#ffffff" stroke-width="1.5"/>
-  <circle cx="410" cy="100" r="5" fill="#38bdf8" stroke="#ffffff" stroke-width="1.5"/>
-  <circle cx="530" cy="65" r="5" fill="#22c55e" stroke="#ffffff" stroke-width="1.5"/>
-  <circle cx="650" cy="80" r="5" fill="#38bdf8" stroke="#ffffff" stroke-width="1.5"/>
-  <circle cx="770" cy="55" r="6" fill="#f43f5e" stroke="#ffffff" stroke-width="2"/>
+  <!-- Milestone Marker Nodes -->
+  <circle cx="170" cy="120" r="5" fill="#ed8b00" stroke="#ffffff" stroke-width="1.5"/>
+  <text x="170" y="140" fill="#cbd5e1" font-size="9" text-anchor="middle">Hotel Portal</text>
 
-  <!-- X-Axis Labels (Months) -->
-  <text x="50" y="185" fill="#7d8590" font-size="11">Jan</text>
-  <text x="170" y="185" fill="#7d8590" font-size="11">Mar</text>
-  <text x="290" y="185" fill="#7d8590" font-size="11">May</text>
-  <text x="410" y="185" fill="#7d8590" font-size="11">Jul</text>
-  <text x="530" y="185" fill="#7d8590" font-size="11">Sep</text>
-  <text x="650" y="185" fill="#7d8590" font-size="11">Nov</text>
-  <text x="770" y="185" fill="#7d8590" font-size="11">Current</text>
+  <circle cx="290" cy="90" r="5" fill="#3178c6" stroke="#ffffff" stroke-width="1.5"/>
+  <text x="290" y="110" fill="#cbd5e1" font-size="9" text-anchor="middle">PayrollPro</text>
 
-  <!-- Legend & Metrics Badge -->
-  <rect x="580" y="70" width="200" height="28" rx="6" fill="#1e293b" stroke="#38bdf8" stroke-width="1" opacity="0.9"/>
-  <text x="680" y="88" fill="#38bdf8" font-size="11" font-weight="bold" text-anchor="middle">⚡ Velocity: +140% Growth</text>
+  <circle cx="410" cy="95" r="5" fill="#627eea" stroke="#ffffff" stroke-width="1.5"/>
+  <text x="410" y="115" fill="#cbd5e1" font-size="9" text-anchor="middle">SkillBadge</text>
+
+  <circle cx="530" cy="65" r="5" fill="#a855f7" stroke="#ffffff" stroke-width="1.5"/>
+  <text x="530" y="85" fill="#cbd5e1" font-size="9" text-anchor="middle">agent-reach</text>
+
+  <circle cx="650" cy="75" r="5" fill="#10b981" stroke="#ffffff" stroke-width="1.5"/>
+  <text x="650" y="95" fill="#cbd5e1" font-size="9" text-anchor="middle">Sentinel AI</text>
+
+  <circle cx="770" cy="50" r="6" fill="#38bdf8" stroke="#ffffff" stroke-width="2"/>
+  <text x="770" y="40" fill="#38bdf8" font-size="10" font-weight="bold" text-anchor="middle">VibeForge 🚀</text>
+
+  <!-- X-Axis Labels -->
+  <text x="50" y="185" fill="#7d8590" font-size="11">Dec 2024</text>
+  <text x="170" y="185" fill="#7d8590" font-size="11">Q1 2025</text>
+  <text x="290" y="185" fill="#7d8590" font-size="11">Q2 2025</text>
+  <text x="410" y="185" fill="#7d8590" font-size="11">Q3 2025</text>
+  <text x="530" y="185" fill="#7d8590" font-size="11">Q4 2025</text>
+  <text x="650" y="185" fill="#7d8590" font-size="11">Q1 2026</text>
+  <text x="770" y="185" fill="#7d8590" font-size="11">Current ⚡</text>
+
+  <!-- Status Tag -->
+  <rect x="580" y="195" width="220" height="20" rx="4" fill="#1e293b"/>
+  <text x="690" y="209" fill="#4ade80" font-size="10.5" font-weight="bold" text-anchor="middle">Velocity: 11 Active Systems Built</text>
 </svg>
