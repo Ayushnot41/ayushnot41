@@ -94,6 +94,7 @@
 
 - **Features**: 3 parallel life trajectory simulations, automated time-travel obstacle feedback loop, 3D particle timeline, ElevenLabs voice narration, and 12-week deployment plans.
 - **Tech Stack**: `Next.js 14`, `TypeScript`, `Tailwind CSS v4`, `LangGraph`, `Supabase pgvector`, `Three.js`, `ElevenLabs`, `Stripe`.
+- 💻 [GitHub Repository](https://github.com/Ayushnot41/VibeForge)
 
 ---
 
