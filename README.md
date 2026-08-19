@@ -2,10 +2,10 @@
 
 <h3><code>ayush@github ~ $ whoami</code></h3>
 
-<!-- AVI VASHISHTA BLOG STYLE: SMOOTH SELF-TYPING ASCII PORTRAIT + 3D ASCII WORDMARK -->
+<!-- AVI VASHISHTA BLOG STYLE: FAST SMOOTH SELF-TYPING ASCII PORTRAIT + 3D WORDMARK -->
 <table>
 <tr>
-<td valign="top" width="46%"><img src="./ayush-ascii.svg" width="100%" alt="Ayush Sarkar — Self-Drawing ASCII Portrait" /></td>
+<td valign="top" width="46%"><img src="./ayush-ascii.svg" width="100%" alt="Ayush Sarkar — Fast Smooth Self-Drawing ASCII Portrait" /></td>
 <td valign="top" width="54%"><img src="./wordmark.svg" width="100%" alt="AYUSH SARKAR — 3D ASCII Wordmark" /></td>
 </tr>
 </table>
@@ -85,9 +85,9 @@
 
 ---
 
-### 🚀 Major Projects & Repository Showcase
+### 🚀 Top 3 Major Projects (With Full-Color Architecture Block Diagrams)
 
-#### 🔮 **VibeForge** — *AI-Powered Future Self Simulator & Life Architect* (Priority #1)
+#### 🔮 1. **VibeForge** — *AI-Powered Future Self Simulator & Life Architect*
 > *Simulate parallel futures, visualize 3D timelines, and generate DALL-E 3 synthetic memories.*
 
 <div align="center">
@@ -99,7 +99,7 @@
 
 ---
 
-#### 📡 **Sentinel AI** — *Live Location Tracker & Threat Analytics* (Priority #2)
+#### 📡 2. **Sentinel AI** — *Live Location Tracker & Threat Analytics*
 > *Real-time GPS telemetry ingestion, spatial geofencing, and sub-second alert dispatch.*
 
 <div align="center">
@@ -112,14 +112,20 @@
 
 ---
 
-#### 🤖 **agent-reach** — *Zero-Fee Multi-Platform AI Agent Web Scraper*
+#### 🤖 3. **agent-reach** — *Zero-Fee Multi-Platform AI Agent Web Scraper*
 > *Give your AI agent eyes to search & read Twitter, Reddit, YouTube, GitHub, Bilibili, and XiaoHongShu without API fees.*
 
-- **Features**: Multi-platform CLI scraper for AI agent workflows, zero API cost integration, structured JSON content outputs.
-- **Tech Stack**: `Node.js`, `TypeScript`, `Puppeteer/Playwright`, `CLI`.
+<div align="center">
+  <img src="./agent-reach-diagram.svg" width="100%" alt="agent-reach Color Block Diagram" />
+</div>
+
+- **Features**: Multi-platform headless CLI scraper for agentic LLM workflows, zero API cost integration, and structured JSON context streaming.
+- **Tech Stack**: `Node.js`, `TypeScript`, `Puppeteer/Playwright`, `CLI Tools`.
 - 💻 [GitHub Repository](https://github.com/Ayushnot41/agent-reach)
 
 ---
+
+### 💼 Additional Featured Projects
 
 #### 💼 **PayrollPro** — *Enterprise Salary & Tax Compliance SaaS*
 > *Automating Indian salary computation, PF/ESI/TDS compliance, and tax regime comparisons.*
