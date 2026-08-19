@@ -2,7 +2,7 @@
 
 <h3><code>ayush@github ~ $ whoami</code></h3>
 
-<!-- AVI VASHISHTA BLOG STYLE: SELF-TYPING ASCII PORTRAIT + 3D ASCII WORDMARK SIDE BY SIDE -->
+<!-- AVI VASHISHTA BLOG STYLE: SMOOTH SELF-TYPING ASCII PORTRAIT + 3D ASCII WORDMARK -->
 <table>
 <tr>
 <td valign="top" width="46%"><img src="./ayush-ascii.svg" width="100%" alt="Ayush Sarkar — Self-Drawing ASCII Portrait" /></td>
@@ -15,13 +15,13 @@
 <!-- EXECUTIVE SUMMARY -->
 <p align="center">
   <b>Full-Stack &amp; AI Systems Engineer</b> based in <b>Kolkata, India 📍</b><br/>
-  Building high-throughput geospatial telemetry platforms, multi-agent AI pipelines, and enterprise web applications.<br/>
+  Architecting high-throughput geospatial telemetry platforms, multi-agent AI pipelines, and enterprise web applications.<br/>
   Specializing in <b>Next.js 14, LangGraph, Spring Boot 3.2, Supabase pgvector, and PostGIS</b>.
 </p>
 
 <br/>
 
-<!-- OPTIMIZED & SHORTENED SOCIAL MEDIA BADGES -->
+<!-- OPTIMIZED SHORTENED SOCIAL MEDIA BADGES -->
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/edit-with-ayush)
 [![X / Twitter](https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white)](https://x.com/anonymousx46x)
 [![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://instagram.com/ayush.fillms)
@@ -167,20 +167,15 @@
 ### 📊 GitHub Activity & Analytics
 
 <div align="center">
-
-<img src="https://github-readme-stats.vercel.app/api?username=Ayushnot41&show_icons=true&theme=dark&bg_color=0d1117&title_color=38bdf8&text_color=c9d1d9&icon_color=4ade80&border_color=30363d&hide_border=false" width="48%" alt="GitHub Stats" />
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Ayushnot41&layout=compact&theme=dark&bg_color=0d1117&title_color=38bdf8&text_color=c9d1d9&border_color=30363d&hide_border=false" width="48%" alt="Top Languages" />
-
-<br/><br/>
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=Ayushnot41&theme=github-dark&color=38bdf8&line=38bdf8&point=ffffff&area=true&hide_border=true" width="97%" alt="Activity Graph" />
-
+  <img src="./github-stats.svg" width="100%" alt="GitHub Performance Analytics & Top Languages" />
+  <br/><br/>
+  <img src="./github-activity.svg" width="100%" alt="Engineering & Shipping Activity Heatmap" />
 </div>
 
 ---
 
 <div align="center">
 
-*Designed with CLI precision &amp; powered by Agentic AI*
+*Crafted with CLI precision &amp; powered by Agentic AI*
 
 </div>
