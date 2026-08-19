@@ -1,47 +1,55 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 240" width="100%" height="240" style="background: #0d1117; border-radius: 12px; border: 1px solid #30363d; font-family: 'Fira Code', 'Courier New', monospace;">
-  <style>
-    .node-title { fill: #f8fafc; font-weight: bold; font-size: 13px; }
-    .node-sub { fill: #94a3b8; font-size: 11px; }
-    .arrow { stroke: #4ade80; stroke-width: 2; marker-end: url(#arrowhead-green); }
-  </style>
-
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 250" width="100%" height="250" style="background: #090d16; border-radius: 14px; border: 1px solid #1e293b; font-family: 'Fira Code', 'Segoe UI', sans-serif;">
   <defs>
-    <marker id="arrowhead-green" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto">
-      <polygon points="0 0, 8 3, 0 6" fill="#4ade80" />
+    <linearGradient id="grad-gps" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0284c7" />
+      <stop offset="100%" stop-color="#0f766e" />
+    </linearGradient>
+    <linearGradient id="grad-spatial" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#059669" />
+      <stop offset="100%" stop-color="#065f46" />
+    </linearGradient>
+    <linearGradient id="grad-alert" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#dc2626" />
+      <stop offset="100%" stop-color="#991b1b" />
+    </linearGradient>
+    <marker id="arrow-sentinel" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#4ade80" />
     </marker>
   </defs>
 
   <!-- Title -->
-  <text x="25" y="30" fill="#4ade80" font-size="14" font-weight="bold">📡 SENTINEL AI TELEMETRY &amp; GEOFENCING DIAGRAM</text>
+  <text x="25" y="32" fill="#4ade80" font-size="15" font-weight="bold">📡 SENTINEL AI REAL-TIME TELEMETRY &amp; GEOFENCING DIAGRAM</text>
 
-  <!-- Step 1: GPS Stream -->
-  <rect x="25" y="55" width="200" height="150" rx="8" fill="#161b22" stroke="#30363d" stroke-width="1.5"/>
-  <circle cx="125" cy="85" r="16" fill="#0284c7" />
-  <text x="125" y="90" text-anchor="middle" fill="#ffffff" font-size="14">🛰️</text>
-  <text x="125" y="125" text-anchor="middle" class="node-title">GPS Ingestion Stream</text>
-  <text x="125" y="145" text-anchor="middle" class="node-sub">High-Freq Coordinate Pings</text>
-  <text x="125" y="165" text-anchor="middle" class="node-sub">Mobile / IoT Sensors</text>
+  <!-- Card 1: GPS Stream Ingestion -->
+  <rect x="25" y="55" width="210" height="165" rx="12" fill="url(#grad-gps)" stroke="#38bdf8" stroke-width="2"/>
+  <rect x="35" y="65" width="190" height="32" rx="6" fill="#082f49" opacity="0.6"/>
+  <text x="130" y="86" text-anchor="middle" fill="#ffffff" font-size="13" font-weight="bold">🛰️ Ingestion Gateway</text>
+  <text x="45" y="122" fill="#e0f2fe" font-size="12">• Mobile &amp; IoT GPS Streams</text>
+  <text x="45" y="145" fill="#e0f2fe" font-size="12">• Node.js Edge WebSocket</text>
+  <text x="45" y="168" fill="#e0f2fe" font-size="12">• High-Freq Json Telemetry</text>
+  <text x="45" y="191" fill="#e0f2fe" font-size="12">• Sub-Second Data Ingest</text>
 
-  <!-- Arrow 1 -->
-  <line x1="225" y1="130" x2="265" y2="130" class="arrow" />
+  <!-- Connection Line 1 -->
+  <line x1="235" y1="138" x2="280" y2="138" stroke="#4ade80" stroke-width="3" marker-end="url(#arrow-sentinel)" />
 
-  <!-- Step 2: Processing Engine -->
-  <rect x="275" y="55" width="240" height="150" rx="8" fill="#064e3b" stroke="#10b981" stroke-width="1.5"/>
-  <circle cx="395" cy="85" r="16" fill="#059669" />
-  <text x="395" y="90" text-anchor="middle" fill="#ffffff" font-size="14">⚡</text>
-  <text x="395" y="120" text-anchor="middle" class="node-title" fill="#6ee7b7">Haversine Spatial Engine</text>
-  <text x="395" y="140" text-anchor="middle" class="node-sub">PostgreSQL + PostGIS Query</text>
-  <text x="395" y="160" text-anchor="middle" class="node-sub">Upstash Redis Active State</text>
-  <text x="395" y="180" text-anchor="middle" class="node-sub">Geofence Perimeter Checks</text>
+  <!-- Card 2: Haversine Spatial Engine -->
+  <rect x="290" y="55" width="240" height="165" rx="12" fill="url(#grad-spatial)" stroke="#4ade80" stroke-width="2"/>
+  <rect x="300" y="65" width="220" height="32" rx="6" fill="#064e3b" opacity="0.6"/>
+  <text x="410" y="86" text-anchor="middle" fill="#ffffff" font-size="13" font-weight="bold">⚡ Spatial Threat Engine</text>
+  <text x="310" y="122" fill="#d1fae5" font-size="12">• PostgreSQL + PostGIS Query</text>
+  <text x="310" y="145" fill="#d1fae5" font-size="12">• Haversine Perimeter Checks</text>
+  <text x="310" y="168" fill="#d1fae5" font-size="12">• Upstash Redis Active Caching</text>
+  <text x="310" y="191" fill="#d1fae5" font-size="12">• Polygon Geofence Evaluator</text>
 
-  <!-- Arrow 2 -->
-  <line x1="515" y1="130" x2="555" y2="130" class="arrow" />
+  <!-- Connection Line 2 -->
+  <line x1="530" y1="138" x2="575" y2="138" stroke="#4ade80" stroke-width="3" marker-end="url(#arrow-sentinel)" />
 
-  <!-- Step 3: Real-Time Map & Alerts -->
-  <rect x="565" y="55" width="210" height="150" rx="8" fill="#161b22" stroke="#30363d" stroke-width="1.5"/>
-  <circle cx="670" cy="85" r="16" fill="#dc2626" />
-  <text x="670" y="90" text-anchor="middle" fill="#ffffff" font-size="14">🗺️</text>
-  <text x="670" y="120" text-anchor="middle" class="node-title">Mapbox Dashboard</text>
-  <text x="670" y="140" text-anchor="middle" class="node-sub">Live Marker Trajectories</text>
-  <text x="670" y="160" text-anchor="middle" class="node-sub">🚨 Sub-Second Threat Alerts</text>
+  <!-- Card 3: Dashboard & Threat Alerts -->
+  <rect x="585" y="55" width="210" height="165" rx="12" fill="url(#grad-alert)" stroke="#f87171" stroke-width="2"/>
+  <rect x="595" y="65" width="190" height="32" rx="6" fill="#450a0a" opacity="0.6"/>
+  <text x="690" y="86" text-anchor="middle" fill="#ffffff" font-size="13" font-weight="bold">🚨 Alert &amp; Map Suite</text>
+  <text x="600" y="122" fill="#fee2e2" font-size="12">• Mapbox GL JS 3D Live Map</text>
+  <text x="600" y="145" fill="#fee2e2" font-size="12">• Sub-Millisecond Breach Push</text>
+  <text x="600" y="168" fill="#fee2e2" font-size="12">• Trajectory Movement Playback</text>
+  <text x="600" y="191" fill="#fee2e2" font-size="12">• Emergency Protocol Trigger</text>
 </svg>
