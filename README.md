@@ -18,11 +18,11 @@
   <a href="https://reddit.com/user/Azzuroxx_09"><img src="https://img.shields.io/badge/Reddit-FF4500?style=flat-square&logo=reddit&logoColor=white" height="20" alt="Reddit"/></a>
 </p>
 
-<!-- EXECUTIVE BIO SUMMARY -->
+<!-- HUMAN & AUTHENTIC BIO SUMMARY -->
 <p align="center">
-  <b>Full-Stack &amp; AI Systems Engineer</b> · Kolkata, India 📍<br/>
-  Architecting high-throughput geospatial telemetry platforms, multi-agent AI pipelines, and enterprise web applications.<br/>
-  Specializing in <b>Next.js 14, LangGraph, Spring Boot 3.2, Supabase pgvector, and PostGIS</b>.
+  Hey! I'm <b>Ayush Sarkar</b> — a full-stack builder &amp; AI systems engineer based in <b>Kolkata, India 📍</b><br/>
+  Building real-time apps, multi-agent AI pipelines, and clean full-stack platforms.<br/>
+  Currently hacking on <b>Next.js 14, LangGraph, Spring Boot 3.2, Supabase pgvector, and PostGIS</b>.
 </p>
 
 </div>
@@ -33,9 +33,9 @@
 
 ```syslog
   ██████╗  ██████╗  ██████╗ ███████╗     OS       : Arch Linux / macOS / Windows WSL2
-  ██╔══██╗██╔═══██╗██╔════╝ ██╔════╝     Kernel   : Agentic AI CLI Ecosystem v2026.8
-  ██████╔╝██║   ██║██║  ███╗█████╗       Uptime   : 24/7 Shipping Production Systems
-  ██╔═══╝ ██║   ██║██║   ██║██╔══╝       Shell    : zsh + Antigravity CLI + Claude Code + OpenCode + MemoCode
+  ██╔══██╗██╔═══██╗██╔════╝ ██╔════╝     Stack    : Next.js 14 + Spring Boot + LangGraph
+  ██████╔╝██║   ██║██║  ███╗█████╗       Uptime   : Always building & shipping
+  ██╔═══╝ ██║   ██║██║   ██║██╔══╝       Shell    : zsh + Antigravity CLI + Claude Code + OpenCode
   ██║     ╚██████╔╝╚██████╔╝███████╗     IDE      : Antigravity IDE / VS Code / Cursor
   ╚═╝      ╚═════╝  ╚═════╝ ╚══════╝     Location : Kolkata, India 📍
 ```
@@ -96,23 +96,23 @@
 
 ---
 
-### 🚀 Top 3 Major Architectures (With Full-Color Block Diagrams)
+### 🚀 Top 3 Featured Projects (With Architecture Block Diagrams)
 
 #### 🔮 1. **VibeForge** — *AI-Powered Future Self Simulator & Life Architect*
-> *Simulate parallel futures, visualize 3D timelines, and generate DALL-E 3 synthetic memories.*
+> *Simulate parallel life futures, explore 3D branching timelines, and generate DALL-E 3 synthetic memories.*
 
 <div align="center">
   <img src="./vibeforge-diagram.svg" width="100%" alt="VibeForge Color Block Diagram" />
 </div>
 
-- **Features**: 3 parallel life trajectory simulations, automated time-travel obstacle feedback loop, 3D particle timeline, ElevenLabs voice narration, and 12-week deployment plans.
+- **Features**: 3 parallel life trajectory simulations, automated time-travel feedback loop, 3D particle timeline, ElevenLabs voice narration, and actionable 12-week deployment plans.
 - **Tech Stack**: `Next.js 14`, `TypeScript`, `Tailwind CSS v4`, `LangGraph`, `Supabase pgvector`, `Three.js`, `ElevenLabs`, `Stripe`.
 - 💻 [GitHub Repository](https://github.com/Ayushnot41/VibeForge)
 
 ---
 
 #### 📡 2. **Sentinel AI** — *Live Location Tracker & Threat Analytics*
-> *Real-time GPS telemetry ingestion, spatial geofencing, and sub-second alert dispatch.*
+> *Real-time GPS telemetry ingestion, spatial polygon geofencing, and instant breach alerts.*
 
 <div align="center">
   <img src="./sentinel-diagram.svg" width="100%" alt="Sentinel AI Color Block Diagram" />
@@ -140,7 +140,7 @@
 ### 💼 Enterprise SaaS, Web3 & Core Repositories
 
 #### 💼 **PayrollPro** — *Enterprise Salary & Tax Compliance SaaS*
-> *Automating Indian salary computation, PF/ESI/TDS compliance, and tax regime comparisons.*
+> *Automated Indian salary computation, PF/ESI/TDS compliance, and real-time tax regime comparisons.*
 
 - **Features**: Real-time tax regime optimization (old vs new), automated PF/ESI/TDS calculations, interactive Recharts analytics, and bulk PDF/Excel exports.
 - **Tech Stack**: `Next.js 14`, `TypeScript`, `Tailwind CSS`, `Zustand`, `Shadcn UI`, `Recharts`, `jsPDF`, `XLSX`.
@@ -198,6 +198,6 @@
 
 <div align="center">
 
-*Crafted with CLI precision &amp; powered by Agentic AI*
+*Building in public · Powered by curiosity &amp; code ☕*
 
 </div>
