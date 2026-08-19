@@ -6,7 +6,7 @@
   </linearGradient>
   <clipPath id="wipe-wm">
     <rect x="15" y="35" height="315" width="0">
-      <animate attributeName="width" from="0" to="430" begin="0.1s" dur="2.2s" fill="freeze" calcMode="linear"/>
+      <animate attributeName="width" from="0" to="430" begin="0.05s" dur="1.2s" fill="freeze"/>
     </rect>
   </clipPath>
 </defs>
