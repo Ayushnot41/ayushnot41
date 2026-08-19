@@ -2,16 +2,71 @@
   <defs>
     <linearGradient id="actg-bg" x1="0%" y1="0%" x2="0%" y2="100%">
       <stop offset="0%" stop-color="#111722"/>
-      <stop offset="1" stop-color="#0d1117"/>
+      <stop offset="100%" stop-color="#0d1117"/>
     </linearGradient>
     <linearGradient id="curve-grad" x1="0%" y1="0%" x2="0%" y2="100%">
-      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.40"/>
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.35"/>
       <stop offset="100%" stop-color="#38bdf8" stop-opacity="0.0"/>
     </linearGradient>
   </defs>
 
+  <style>
+    /* Line draws itself left-to-right */
+    @keyframes drawLine {
+      from { stroke-dashoffset: 900; }
+      to   { stroke-dashoffset: 0; }
+    }
+    /* Area fill fades in after line finishes */
+    @keyframes areaFade {
+      from { opacity: 0; }
+      to   { opacity: 1; }
+    }
+    /* Milestone dots pop in at their position along the timeline */
+    @keyframes dotPop {
+      0%   { r: 0; opacity: 0; }
+      60%  { r: 6; opacity: 1; }
+      100% { r: 5; opacity: 1; }
+    }
+    /* Labels fade in with their dots */
+    @keyframes labelIn {
+      from { opacity: 0; }
+      to   { opacity: 1; }
+    }
+    /* Pulsing glow on the latest milestone (VibeForge) */
+    @keyframes pulse {
+      0%   { r: 6; opacity: 1; }
+      50%  { r: 9; opacity: 0.6; }
+      100% { r: 6; opacity: 1; }
+    }
+
+    .graph-line {
+      stroke-dasharray: 900;
+      stroke-dashoffset: 900;
+      animation: drawLine 2.5s ease-out forwards;
+    }
+    .graph-area {
+      opacity: 0;
+      animation: areaFade 0.8s ease-out 2.2s forwards;
+    }
+    .dot1 { r: 0; animation: dotPop 0.3s ease-out 0.6s forwards; }
+    .dot2 { r: 0; animation: dotPop 0.3s ease-out 1.0s forwards; }
+    .dot3 { r: 0; animation: dotPop 0.3s ease-out 1.3s forwards; }
+    .dot4 { r: 0; animation: dotPop 0.3s ease-out 1.6s forwards; }
+    .dot5 { r: 0; animation: dotPop 0.3s ease-out 1.9s forwards; }
+    .dot6 { r: 0; animation: pulse 1.8s ease-in-out 2.3s infinite; }
+
+    .lbl1 { opacity: 0; animation: labelIn 0.2s ease-out 0.7s forwards; }
+    .lbl2 { opacity: 0; animation: labelIn 0.2s ease-out 1.1s forwards; }
+    .lbl3 { opacity: 0; animation: labelIn 0.2s ease-out 1.4s forwards; }
+    .lbl4 { opacity: 0; animation: labelIn 0.2s ease-out 1.7s forwards; }
+    .lbl5 { opacity: 0; animation: labelIn 0.2s ease-out 2.0s forwards; }
+    .lbl6 { opacity: 0; animation: labelIn 0.2s ease-out 2.4s forwards; }
+
+    .status-tag { opacity: 0; animation: labelIn 0.3s ease-out 2.6s forwards; }
+  </style>
+
   <rect width="840" height="220" rx="12" fill="url(#actg-bg)" stroke="#30363d" stroke-width="1"/>
-  
+
   <rect x="20" y="15" width="800" height="30" rx="6" fill="#161b22"/>
   <text x="35" y="35" fill="#38bdf8" font-size="13" font-weight="bold">📈 Project Shipping Velocity &amp; Active Development Milestones</text>
 
@@ -25,33 +80,30 @@
   <text x="38" y="119" fill="#64748b" font-size="10" text-anchor="end">Med</text>
   <text x="38" y="159" fill="#64748b" font-size="10" text-anchor="end">Low</text>
 
-  <!-- Area Fill Path -->
-  <path d="M 50 155 Q 110 135 170 120 T 290 90 T 410 95 T 530 65 T 650 75 T 770 50 L 770 155 L 50 155 Z" fill="url(#curve-grad)"/>
+  <!-- Animated Area Fill (fades in after line draws) -->
+  <path class="graph-area" d="M 50 155 Q 110 148 170 140 T 290 115 T 410 110 T 530 80 T 650 70 T 770 50 L 770 155 L 50 155 Z" fill="url(#curve-grad)"/>
 
-  <!-- Stroke Line Path -->
-  <path d="M 50 155 Q 110 135 170 120 T 290 90 T 410 95 T 530 65 T 650 75 T 770 50" fill="none" stroke="#38bdf8" stroke-width="3" stroke-linecap="round"/>
+  <!-- Animated Line (draws itself left-to-right) -->
+  <path class="graph-line" d="M 50 155 Q 110 148 170 140 T 290 115 T 410 110 T 530 80 T 650 70 T 770 50" fill="none" stroke="#38bdf8" stroke-width="3" stroke-linecap="round"/>
 
-  <!-- Milestone Marker Nodes -->
-  <circle cx="170" cy="120" r="5" fill="#ed8b00" stroke="#ffffff" stroke-width="1.5"/>
-  <text x="170" y="140" fill="#cbd5e1" font-size="9" text-anchor="middle">Hotel Portal</text>
+  <!-- Milestone Dots (pop in as line reaches them) -->
+  <circle class="dot1" cx="170" cy="140" fill="#ed8b00" stroke="#ffffff" stroke-width="1.5"/>
+  <circle class="dot2" cx="290" cy="115" fill="#3178c6" stroke="#ffffff" stroke-width="1.5"/>
+  <circle class="dot3" cx="410" cy="110" fill="#627eea" stroke="#ffffff" stroke-width="1.5"/>
+  <circle class="dot4" cx="530" cy="80"  fill="#a855f7" stroke="#ffffff" stroke-width="1.5"/>
+  <circle class="dot5" cx="650" cy="70"  fill="#10b981" stroke="#ffffff" stroke-width="1.5"/>
+  <circle class="dot6" cx="770" cy="50"  fill="#38bdf8" stroke="#ffffff" stroke-width="2"/>
 
-  <circle cx="290" cy="90" r="5" fill="#3178c6" stroke="#ffffff" stroke-width="1.5"/>
-  <text x="290" y="110" fill="#cbd5e1" font-size="9" text-anchor="middle">PayrollPro</text>
-
-  <circle cx="410" cy="95" r="5" fill="#627eea" stroke="#ffffff" stroke-width="1.5"/>
-  <text x="410" y="115" fill="#cbd5e1" font-size="9" text-anchor="middle">SkillBadge</text>
-
-  <circle cx="530" cy="65" r="5" fill="#a855f7" stroke="#ffffff" stroke-width="1.5"/>
-  <text x="530" y="85" fill="#cbd5e1" font-size="9" text-anchor="middle">agent-reach</text>
-
-  <circle cx="650" cy="75" r="5" fill="#10b981" stroke="#ffffff" stroke-width="1.5"/>
-  <text x="650" y="95" fill="#cbd5e1" font-size="9" text-anchor="middle">Sentinel AI</text>
-
-  <circle cx="770" cy="50" r="6" fill="#38bdf8" stroke="#ffffff" stroke-width="2"/>
-  <text x="770" y="40" fill="#38bdf8" font-size="10" font-weight="bold" text-anchor="middle">VibeForge 🚀</text>
+  <!-- Milestone Labels (fade in with dots) -->
+  <text class="lbl1" x="170" y="160" fill="#cbd5e1" font-size="9" text-anchor="middle">Hotel Portal</text>
+  <text class="lbl2" x="290" y="135" fill="#cbd5e1" font-size="9" text-anchor="middle">PayrollPro</text>
+  <text class="lbl3" x="410" y="130" fill="#cbd5e1" font-size="9" text-anchor="middle">SkillBadge</text>
+  <text class="lbl4" x="530" y="100" fill="#cbd5e1" font-size="9" text-anchor="middle">agent-reach</text>
+  <text class="lbl5" x="650" y="90"  fill="#cbd5e1" font-size="9" text-anchor="middle">Sentinel AI</text>
+  <text class="lbl6" x="770" y="40"  fill="#38bdf8" font-size="10" font-weight="bold" text-anchor="middle">VibeForge 🚀</text>
 
   <!-- X-Axis Labels -->
-  <text x="50" y="185" fill="#7d8590" font-size="11">Dec 2024</text>
+  <text x="50"  y="185" fill="#7d8590" font-size="11">Dec 2024</text>
   <text x="170" y="185" fill="#7d8590" font-size="11">Q1 2025</text>
   <text x="290" y="185" fill="#7d8590" font-size="11">Q2 2025</text>
   <text x="410" y="185" fill="#7d8590" font-size="11">Q3 2025</text>
@@ -59,7 +111,7 @@
   <text x="650" y="185" fill="#7d8590" font-size="11">Q1 2026</text>
   <text x="770" y="185" fill="#7d8590" font-size="11">Current ⚡</text>
 
-  <!-- Status Tag -->
-  <rect x="580" y="195" width="220" height="20" rx="4" fill="#1e293b"/>
-  <text x="690" y="209" fill="#4ade80" font-size="10.5" font-weight="bold" text-anchor="middle">Velocity: 11 Active Systems Built</text>
+  <!-- Status Tag (appears last) -->
+  <rect class="status-tag" x="580" y="195" width="220" height="20" rx="4" fill="#1e293b"/>
+  <text class="status-tag" x="690" y="209" fill="#4ade80" font-size="10.5" font-weight="bold" text-anchor="middle">Velocity: 11 Active Systems Built</text>
 </svg>
