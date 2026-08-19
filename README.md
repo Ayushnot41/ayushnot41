@@ -2,30 +2,28 @@
 
 <h3><code>ayush@github ~ $ whoami</code></h3>
 
-<!-- AVI VASHISHTA BLOG STYLE: FAST SMOOTH SELF-TYPING ASCII PORTRAIT + 3D WORDMARK -->
+<!-- AVI VASHISHTA BLOG STYLE: SMOOTH SELF-DRAWING ASCII PORTRAIT + 3D WORDMARK -->
 <table>
 <tr>
-<td valign="top" width="46%"><img src="./ayush-ascii.svg" width="100%" alt="Ayush Sarkar — Fast Smooth Self-Drawing ASCII Portrait" /></td>
+<td valign="top" width="46%"><img src="./ayush-ascii.svg" width="100%" alt="Ayush Sarkar — Smooth Self-Drawing ASCII Portrait" /></td>
 <td valign="top" width="54%"><img src="./wordmark.svg" width="100%" alt="AYUSH SARKAR — 3D ASCII Wordmark" /></td>
 </tr>
 </table>
 
-<br/>
-
-<!-- EXECUTIVE SUMMARY -->
+<!-- COMPACT SHORTENED SOCIAL BADGES (SLEEK SINGLE-LINE ROW) -->
 <p align="center">
-  <b>Full-Stack &amp; AI Systems Engineer</b> based in <b>Kolkata, India 📍</b><br/>
+  <a href="https://linkedin.com/in/edit-with-ayush"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white" height="20" alt="LinkedIn"/></a>&nbsp;
+  <a href="https://x.com/anonymousx46x"><img src="https://img.shields.io/badge/X-000000?style=flat-square&logo=x&logoColor=white" height="20" alt="X"/></a>&nbsp;
+  <a href="https://instagram.com/ayush.fillms"><img src="https://img.shields.io/badge/Instagram-E4405F?style=flat-square&logo=instagram&logoColor=white" height="20" alt="Instagram"/></a>&nbsp;
+  <a href="https://reddit.com/user/Azzuroxx_09"><img src="https://img.shields.io/badge/Reddit-FF4500?style=flat-square&logo=reddit&logoColor=white" height="20" alt="Reddit"/></a>
+</p>
+
+<!-- EXECUTIVE BIO SUMMARY -->
+<p align="center">
+  <b>Full-Stack &amp; AI Systems Engineer</b> · Kolkata, India 📍<br/>
   Architecting high-throughput geospatial telemetry platforms, multi-agent AI pipelines, and enterprise web applications.<br/>
   Specializing in <b>Next.js 14, LangGraph, Spring Boot 3.2, Supabase pgvector, and PostGIS</b>.
 </p>
-
-<br/>
-
-<!-- OPTIMIZED SHORTENED SOCIAL MEDIA BADGES -->
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/edit-with-ayush)
-[![X / Twitter](https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white)](https://x.com/anonymousx46x)
-[![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://instagram.com/ayush.fillms)
-[![Reddit](https://img.shields.io/badge/Reddit-FF4500?style=for-the-badge&logo=reddit&logoColor=white)](https://reddit.com/user/Azzuroxx_09)
 
 </div>
 
@@ -85,7 +83,7 @@
 
 ---
 
-### 🚀 Top 3 Major Projects (With Full-Color Architecture Block Diagrams)
+### 🚀 Top 3 Major Projects (With Full-Color Block Architecture Diagrams)
 
 #### 🔮 1. **VibeForge** — *AI-Powered Future Self Simulator & Life Architect*
 > *Simulate parallel futures, visualize 3D timelines, and generate DALL-E 3 synthetic memories.*
@@ -173,6 +171,8 @@
 ### 📊 GitHub Activity & Analytics
 
 <div align="center">
+  <img src="./github-activity-graph.svg" width="100%" alt="Contribution & Code Velocity Analysis Graph" />
+  <br/><br/>
   <img src="./github-stats.svg" width="100%" alt="GitHub Performance Analytics & Top Languages" />
   <br/><br/>
   <img src="./github-activity.svg" width="100%" alt="Engineering & Shipping Activity Heatmap" />
