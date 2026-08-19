@@ -42,6 +42,19 @@
 
 ---
 
+### 🏆 GitHub Badges & Achievements
+
+<div align="center">
+
+| 🦈 Pull Shark | ⚡ Quickdraw | 👥 Pair Extraordinaire | ❄️ Arctic Vault | 🧠 Galaxy Brain | 🚀 Open Source |
+|:---:|:---:|:---:|:---:|:---:|:---:|
+| <img src="https://github.githubassets.com/images/modules/profile/achievements/pull-shark-default.png" width="60px" alt="Pull Shark" /> | <img src="https://github.githubassets.com/images/modules/profile/achievements/quickdraw-default.png" width="60px" alt="Quickdraw" /> | <img src="https://github.githubassets.com/images/modules/profile/achievements/pair-extraordinaire-default.png" width="60px" alt="Pair Extraordinaire" /> | <img src="https://github.githubassets.com/images/modules/profile/achievements/arctic-code-vault-contributor-default.png" width="60px" alt="Arctic Code Vault" /> | <img src="https://github.githubassets.com/images/modules/profile/achievements/galaxy-brain-default.png" width="60px" alt="Galaxy Brain" /> | <img src="https://github.githubassets.com/images/modules/profile/achievements/yolo-default.png" width="60px" alt="YOLO" /> |
+| **Merged PRs** | **Rapid Dispatch** | **Co-Authored Code** | **2020 Archive** | **Accepted Answers** | **Continuous Shipping** |
+
+</div>
+
+---
+
 ### 🛠️ Tech Stack & Skills Matrix
 
 #### 🌐 **Languages**
