@@ -83,7 +83,7 @@
 
 ---
 
-### 🚀 Top 3 Major Projects (With Full-Color Block Architecture Diagrams)
+### 🚀 Top 3 Major Architectures (With Full-Color Block Diagrams)
 
 #### 🔮 1. **VibeForge** — *AI-Powered Future Self Simulator & Life Architect*
 > *Simulate parallel futures, visualize 3D timelines, and generate DALL-E 3 synthetic memories.*
@@ -123,7 +123,7 @@
 
 ---
 
-### 💼 Additional Featured Projects
+### 💼 Enterprise SaaS, Web3 & Core Repositories
 
 #### 💼 **PayrollPro** — *Enterprise Salary & Tax Compliance SaaS*
 > *Automating Indian salary computation, PF/ESI/TDS compliance, and tax regime comparisons.*
@@ -152,19 +152,21 @@
 
 ---
 
-#### ⚡ **ai-website-cloner-template** — *One-Command AI Coding Web Cloner*
-> *Clone any website with one command using AI coding agents.*
+#### 🛍️ **garibishop.com** — *Modern E-Commerce Storefront*
+> *Lightweight e-commerce merchant system with dynamic cart state and product discovery.*
 
-- **Features**: Automated frontend component extraction, Tailwind CSS generator, agentic workflow templates.
-- **Tech Stack**: `TypeScript`, `Node.js`, `AI Agent Prompts`.
-- 💻 [GitHub Repository](https://github.com/Ayushnot41/ai-website-cloner-template)
+- 💻 [GitHub Repository](https://github.com/Ayushnot41/garibishop.com)
 
 ---
 
-#### 🧠 **500-ai-agents-projects** — *Curated Industry AI Agent Applications*
-> *Comprehensive collection of 500+ practical AI Agent implementations across healthcare, finance, and software engineering.*
+### 🧠 Curated AI Agent Tooling & Ecosystem Repositories
 
-- 💻 [GitHub Repository](https://github.com/Ayushnot41/500-ai-agents-projects)
+- ⚡ **[ai-website-cloner-template](https://github.com/Ayushnot41/ai-website-cloner-template)**: One-command AI coding web cloner.
+- 🧠 **[500-ai-agents-projects](https://github.com/Ayushnot41/500-ai-agents-projects)**: 500+ practical AI agent use cases across industries.
+- 📚 **[awesome-llm-all-apps](https://github.com/Ayushnot41/awesome-llm-all-apps)**: Curated LLM, multi-agent, and RAG architectures collection.
+- 🔌 **[awesome-mcp-servers](https://github.com/Ayushnot41/awesome-mcp-servers)**: Model Context Protocol servers collection.
+- 🌐 **[worldmonitor](https://github.com/Ayushnot41/worldmonitor)**: Real-time global intelligence dashboard.
+- 🚀 **[rtk](https://github.com/Ayushnot41/rtk) & [zap](https://github.com/Ayushnot41/zap)**: High-performance LLM token filtering and CLI proxies.
 
 ---
 

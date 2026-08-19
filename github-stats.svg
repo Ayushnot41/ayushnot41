@@ -9,51 +9,51 @@
   <!-- Left Card: Real Profile Analytics -->
   <rect x="0" y="0" width="410" height="230" rx="12" fill="url(#stat-bg)" stroke="#30363d" stroke-width="1"/>
   <rect x="15" y="15" width="380" height="30" rx="6" fill="#161b22"/>
-  <text x="25" y="35" fill="#38bdf8" font-size="13" font-weight="bold">📊 GitHub Profile &amp; Project Analytics</text>
+  <text x="25" y="35" fill="#38bdf8" font-size="13" font-weight="bold">📊 GitHub Ecosystem &amp; System Analytics</text>
   
   <text x="25" y="75" fill="#e2e8f0" font-size="12.5">📦 Total Public Repositories:</text>
-  <text x="375" y="75" fill="#4ade80" font-size="13.5" font-weight="bold" text-anchor="end">43 Repos</text>
+  <text x="375" y="75" fill="#4ade80" font-size="13.5" font-weight="bold" text-anchor="end">43 Repositories</text>
   
-  <text x="25" y="105" fill="#e2e8f0" font-size="12.5">🚀 Authored / Flagship Systems:</text>
-  <text x="375" y="105" fill="#38bdf8" font-size="13.5" font-weight="bold" text-anchor="end">11 Projects</text>
+  <text x="25" y="105" fill="#e2e8f0" font-size="12.5">🚀 Flagship Authored Architectures:</text>
+  <text x="375" y="105" fill="#38bdf8" font-size="13.5" font-weight="bold" text-anchor="end">11 Core Systems</text>
   
-  <text x="25" y="135" fill="#e2e8f0" font-size="12.5">🧠 Core AI Pipeline Framework:</text>
-  <text x="375" y="135" fill="#a855f7" font-size="13.5" font-weight="bold" text-anchor="end">LangGraph + pgvector</text>
+  <text x="25" y="135" fill="#e2e8f0" font-size="12.5">🧠 AI &amp; Agentic Repositories:</text>
+  <text x="375" y="135" fill="#a855f7" font-size="13.5" font-weight="bold" text-anchor="end">14 Repositories</text>
   
-  <text x="25" y="165" fill="#e2e8f0" font-size="12.5">⚡ Enterprise &amp; GIS Backend:</text>
-  <text x="375" y="165" fill="#fbbf24" font-size="13.5" font-weight="bold" text-anchor="end">Spring Boot + PostGIS</text>
+  <text x="25" y="165" fill="#e2e8f0" font-size="12.5">⚡ Enterprise, SaaS &amp; Web3 Systems:</text>
+  <text x="375" y="165" fill="#fbbf24" font-size="13.5" font-weight="bold" text-anchor="end">18 Repositories</text>
 
   <rect x="25" y="190" width="360" height="20" rx="10" fill="#161b22"/>
   <rect x="25" y="190" width="360" height="20" rx="10" fill="#22c55e" opacity="0.85"/>
-  <text x="205" y="204" fill="#ffffff" font-size="11" font-weight="bold" text-anchor="middle">Status: Active Multi-Agent &amp; Full-Stack Builder</text>
+  <text x="205" y="204" fill="#ffffff" font-size="11" font-weight="bold" text-anchor="middle">Focus: Full-Stack SaaS, Multi-Agent AI &amp; Web3</text>
 
-  <!-- Right Card: Exact Real Language Statistics -->
+  <!-- Right Card: Exact Real Language Distribution -->
   <rect x="430" y="0" width="410" height="230" rx="12" fill="url(#stat-bg)" stroke="#30363d" stroke-width="1"/>
   <rect x="445" y="15" width="380" height="30" rx="6" fill="#161b22"/>
-  <text x="455" y="35" fill="#a855f7" font-size="13" font-weight="bold">💻 Verified Codebase Language Distribution</text>
+  <text x="455" y="35" fill="#a855f7" font-size="13" font-weight="bold">💻 Codebase Language &amp; Stack Distribution</text>
 
   <!-- Java -->
-  <text x="455" y="75" fill="#e2e8f0" font-size="12" font-weight="600">Java 17 (Spring Boot) - 35.6%</text>
-  <rect x="645" y="65" width="170" height="12" rx="6" fill="#161b22"/>
-  <rect x="645" y="65" width="60" height="12" rx="6" fill="#ed8b00"/>
+  <text x="455" y="75" fill="#e2e8f0" font-size="12" font-weight="600">Java 17 (Spring Boot 3.2) - 35.6%</text>
+  <rect x="655" y="65" width="160" height="12" rx="6" fill="#161b22"/>
+  <rect x="655" y="65" width="57" height="12" rx="6" fill="#ed8b00"/>
 
   <!-- TypeScript -->
-  <text x="455" y="105" fill="#e2e8f0" font-size="12" font-weight="600">TypeScript (Next.js / AI) - 24.4%</text>
-  <rect x="645" y="95" width="170" height="12" rx="6" fill="#161b22"/>
-  <rect x="645" y="95" width="42" height="12" rx="6" fill="#3178c6"/>
+  <text x="455" y="105" fill="#e2e8f0" font-size="12" font-weight="600">TypeScript (Next.js 14 / AI) - 24.4%</text>
+  <rect x="655" y="95" width="160" height="12" rx="6" fill="#161b22"/>
+  <rect x="655" y="95" width="39" height="12" rx="6" fill="#3178c6"/>
 
-  <!-- HTML/CSS -->
-  <text x="455" y="135" fill="#e2e8f0" font-size="12" font-weight="600">HTML5 &amp; Tailwind CSS - 28.8%</text>
-  <rect x="645" y="125" width="170" height="12" rx="6" fill="#161b22"/>
-  <rect x="645" y="125" width="49" height="12" rx="6" fill="#06b6d4"/>
+  <!-- HTML / CSS -->
+  <text x="455" y="135" fill="#e2e8f0" font-size="12" font-weight="600">HTML5 &amp; Tailwind CSS v4 - 28.8%</text>
+  <rect x="655" y="125" width="160" height="12" rx="6" fill="#161b22"/>
+  <rect x="655" y="125" width="46" height="12" rx="6" fill="#06b6d4"/>
 
   <!-- JavaScript -->
-  <text x="455" y="165" fill="#e2e8f0" font-size="12" font-weight="600">JavaScript (React 19 / Node) - 11.2%</text>
-  <rect x="645" y="155" width="170" height="12" rx="6" fill="#161b22"/>
-  <rect x="645" y="155" width="19" height="12" rx="6" fill="#f7df1e"/>
+  <text x="455" y="165" fill="#e2e8f0" font-size="12" font-weight="600">JavaScript (React 19 / Node.js) - 11.2%</text>
+  <rect x="655" y="155" width="160" height="12" rx="6" fill="#161b22"/>
+  <rect x="655" y="155" width="18" height="12" rx="6" fill="#f7df1e"/>
 
-  <!-- Specialized: Solidity, Python, PostGIS, SQL -->
-  <text x="455" y="195" fill="#e2e8f0" font-size="12" font-weight="600">Solidity, Python &amp; SQL (Specialized)</text>
-  <rect x="645" y="185" width="170" height="12" rx="6" fill="#161b22"/>
-  <rect x="645" y="185" width="170" height="12" rx="6" fill="#a855f7" opacity="0.8"/>
+  <!-- Specialized -->
+  <text x="455" y="195" fill="#e2e8f0" font-size="12" font-weight="600">Solidity, Python &amp; PostGIS SQL (Core)</text>
+  <rect x="655" y="185" width="160" height="12" rx="6" fill="#161b22"/>
+  <rect x="655" y="185" width="160" height="12" rx="6" fill="#a855f7" opacity="0.8"/>
 </svg>
