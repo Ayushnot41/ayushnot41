@@ -2,20 +2,20 @@
 
 <h3><code>ayush@github ~ $ whoami</code></h3>
 
-<!-- AVI VASHISHTA BLOG STYLE: INFINITE SELF-DRAWING ASCII PORTRAIT + 3D WORDMARK SIDE BY SIDE -->
+<!-- AVI VASHISHTA BLOG STYLE: SELF-TYPING ASCII PORTRAIT + 3D ASCII WORDMARK SIDE BY SIDE -->
 <table>
 <tr>
-<td valign="top" width="42%"><img src="./ayush-ascii.svg" width="100%" alt="Ayush Sarkar — Self-Drawing ASCII Portrait" /></td>
-<td valign="top" width="58%"><img src="./wordmark.svg" width="100%" alt="AYUSH SARKAR — 3D ASCII Wordmark" /></td>
+<td valign="top" width="46%"><img src="./ayush-ascii.svg" width="100%" alt="Ayush Sarkar — Self-Drawing ASCII Portrait" /></td>
+<td valign="top" width="54%"><img src="./wordmark.svg" width="100%" alt="AYUSH SARKAR — 3D ASCII Wordmark" /></td>
 </tr>
 </table>
 
 <br/>
 
-<!-- EXECUTIVE BIO & DESCRIPTION -->
+<!-- EXECUTIVE SUMMARY -->
 <p align="center">
   <b>Full-Stack &amp; AI Systems Engineer</b> based in <b>Kolkata, India 📍</b><br/>
-  Architecting high-throughput geospatial tracking engines, multi-agent AI pipelines, and enterprise web applications.<br/>
+  Building high-throughput geospatial telemetry platforms, multi-agent AI pipelines, and enterprise web applications.<br/>
   Specializing in <b>Next.js 14, LangGraph, Spring Boot 3.2, Supabase pgvector, and PostGIS</b>.
 </p>
 
@@ -37,14 +37,14 @@
   ██████╗  ██████╗  ██████╗ ███████╗     OS       : Arch Linux / macOS / Windows WSL2
   ██╔══██╗██╔═══██╗██╔════╝ ██╔════╝     Kernel   : Agentic AI CLI Ecosystem v2026.8
   ██████╔╝██║   ██║██║  ███╗█████╗       Uptime   : 24/7 Shipping Production Systems
-  ██╔═══╝ ██║   ██║██║   ██║██╔══╝       Shell    : zsh + Antigravity CLI (AGY) + Claude Code + OpenCoder
+  ██╔═══╝ ██║   ██║██║   ██║██╔══╝       Shell    : zsh + Antigravity CLI + Claude Code + OpenCode + MemoCode
   ██║     ╚██████╔╝╚██████╔╝███████╗     IDE      : Antigravity IDE / VS Code / Cursor
   ╚═╝      ╚═════╝  ╚═════╝ ╚══════╝     Location : Kolkata, India 📍
 ```
 
 ---
 
-### 🛠️ Tech Stack & Skills Matrix (Categorized with Tech Names & Icons)
+### 🛠️ Tech Stack & Skills Matrix
 
 #### 🌐 **Languages**
 [![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org)
@@ -68,13 +68,12 @@
 [![Spring Security](https://img.shields.io/badge/Spring_Security-6DB33F?style=for-the-badge&logo=springsecurity&logoColor=white)](https://spring.io/projects/spring-security)
 [![GraphQL](https://img.shields.io/badge/GraphQL-E10098?style=for-the-badge&logo=graphql&logoColor=white)](https://graphql.org)
 
-#### 🧠 **AI & Multi-Agent Systems**
+#### 🧠 **AI & Agentic CLIs**
 [![Google Antigravity](https://img.shields.io/badge/Google_Antigravity_CLI-4285F4?style=for-the-badge&logo=google&logoColor=white)](https://github.com/Ayushnot41)
 [![Claude Code](https://img.shields.io/badge/Claude_Code_CLI-D97757?style=for-the-badge&logo=anthropic&logoColor=white)](https://anthropic.com)
-[![OpenCoder](https://img.shields.io/badge/OpenCoder_CLI-7C3AED?style=for-the-badge&logo=openai&logoColor=white)](https://github.com/Ayushnot41)
+[![OpenCode](https://img.shields.io/badge/OpenCode_CLI-7C3AED?style=for-the-badge&logo=openai&logoColor=white)](https://github.com/Ayushnot41)
+[![MemoCode](https://img.shields.io/badge/MemoCode_CLI-10B981?style=for-the-badge&logo=codeforces&logoColor=white)](https://github.com/Ayushnot41)
 [![LangGraph](https://img.shields.io/badge/LangGraph-FF6F00?style=for-the-badge&logo=langchain&logoColor=white)](https://langchain-ai.github.io/langgraph/)
-[![Claude Sonnet 4](https://img.shields.io/badge/Claude_Sonnet_4-737373?style=for-the-badge&logo=anthropic&logoColor=white)](https://anthropic.com)
-[![Groq Llama 3.3](https://img.shields.io/badge/Groq_Llama_3.3_70B-F55036?style=for-the-badge&logo=meta&logoColor=white)](https://groq.com)
 
 #### 🗄️ **Databases & DevOps**
 [![Supabase pgvector](https://img.shields.io/badge/Supabase_pgvector-3FCF8E?style=for-the-badge&logo=supabase&logoColor=white)](https://supabase.com)
@@ -92,11 +91,11 @@
 > *Simulate parallel futures, visualize 3D timelines, and generate DALL-E 3 synthetic memories.*
 
 <div align="center">
-  <img src="./vibeforge-diagram.svg" width="100%" alt="VibeForge Architecture Diagram" />
+  <img src="./vibeforge-diagram.svg" width="100%" alt="VibeForge Color Block Diagram" />
 </div>
 
 - **Features**: 3 parallel life trajectory simulations, automated time-travel obstacle feedback loop, 3D particle timeline, ElevenLabs voice narration, and 12-week deployment plans.
-- **Tech Stack**: `Next.js 14`, `TypeScript`, `Tailwind CSS v4`, `LangGraph`, `Claude Sonnet 4`, `Groq Llama 3.3`, `Supabase pgvector`, `Three.js`, `ElevenLabs`, `Stripe`.
+- **Tech Stack**: `Next.js 14`, `TypeScript`, `Tailwind CSS v4`, `LangGraph`, `Supabase pgvector`, `Three.js`, `ElevenLabs`, `Stripe`.
 
 ---
 
@@ -104,7 +103,7 @@
 > *Real-time GPS telemetry ingestion, spatial geofencing, and sub-second alert dispatch.*
 
 <div align="center">
-  <img src="./sentinel-diagram.svg" width="100%" alt="Sentinel AI Architecture Diagram" />
+  <img src="./sentinel-diagram.svg" width="100%" alt="Sentinel AI Color Block Diagram" />
 </div>
 
 - **Features**: Real-time location tracking, dynamic polygon geofencing, telemetry playback, and instantaneous perimeter threat notifications.
@@ -131,7 +130,7 @@
 
 ---
 
-#### ⛓ **SkillBadge Verifier** — *Decentralized Soulbound Credential dApp*
+#### ⛓ **SkillBadge Verifier** — *Decentralized Credential dApp*
 > *On-chain Ethereum Sepolia verification platform for non-transferable soulbound credentials.*
 
 - **Features**: Instant institution badge issuing, Soulbound NFT metadata generation, zero-fee verification interface, and MetaMask wallet synchronization.
@@ -171,6 +170,10 @@
 
 <img src="https://github-readme-stats.vercel.app/api?username=Ayushnot41&show_icons=true&theme=dark&bg_color=0d1117&title_color=38bdf8&text_color=c9d1d9&icon_color=4ade80&border_color=30363d&hide_border=false" width="48%" alt="GitHub Stats" />
 <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Ayushnot41&layout=compact&theme=dark&bg_color=0d1117&title_color=38bdf8&text_color=c9d1d9&border_color=30363d&hide_border=false" width="48%" alt="Top Languages" />
+
+<br/><br/>
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=Ayushnot41&theme=github-dark&color=38bdf8&line=38bdf8&point=ffffff&area=true&hide_border=true" width="97%" alt="Activity Graph" />
 
 </div>
 
