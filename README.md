@@ -10,14 +10,6 @@
 </tr>
 </table>
 
-<!-- PROFILE METRICS & STATUS BADGES -->
-<p align="center">
-  <a href="https://github.com/Ayushnot41"><img src="https://komarev.com/ghpvc/?username=Ayushnot41&style=flat-square&color=38bdf8&label=PROFILE+VIEWS" alt="Profile Views" /></a>&nbsp;
-  <a href="https://github.com/Ayushnot41?tab=repositories"><img src="https://img.shields.io/badge/REPOSITORIES-43%20PUBLIC-10B981?style=flat-square&logo=github&logoColor=white" alt="Repositories" /></a>&nbsp;
-  <a href="https://github.com/Ayushnot41"><img src="https://img.shields.io/badge/ENGINEER-AGENTIC%20AI-A855F7?style=flat-square&logo=openai&logoColor=white" alt="AI Focus" /></a>&nbsp;
-  <a href="https://github.com/Ayushnot41"><img src="https://img.shields.io/badge/STATUS-SHIPPING%20ACTIVE-22C55E?style=flat-square&logo=visualstudiocode&logoColor=white" alt="Active Status" /></a>
-</p>
-
 <!-- COMPACT SHORTENED SOCIAL BADGES (SLEEK SINGLE-LINE ROW) -->
 <p align="center">
   <a href="https://linkedin.com/in/edit-with-ayush"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white" height="20" alt="LinkedIn"/></a>&nbsp;
@@ -47,19 +39,6 @@
   ██║     ╚██████╔╝╚██████╔╝███████╗     IDE      : Antigravity IDE / VS Code / Cursor
   ╚═╝      ╚═════╝  ╚═════╝ ╚══════╝     Location : Kolkata, India 📍
 ```
-
----
-
-### 🏆 GitHub Badges & Achievements
-
-<div align="center">
-
-| 🦈 Pull Shark | ⚡ Quickdraw | 👥 Pair Extraordinaire | ❄️ Arctic Vault | 🧠 Galaxy Brain | 🚀 Open Source |
-|:---:|:---:|:---:|:---:|:---:|:---:|
-| <img src="https://github.githubassets.com/images/modules/profile/achievements/pull-shark-default.png" width="60px" alt="Pull Shark" /> | <img src="https://github.githubassets.com/images/modules/profile/achievements/quickdraw-default.png" width="60px" alt="Quickdraw" /> | <img src="https://github.githubassets.com/images/modules/profile/achievements/pair-extraordinaire-default.png" width="60px" alt="Pair Extraordinaire" /> | <img src="https://github.githubassets.com/images/modules/profile/achievements/arctic-code-vault-contributor-default.png" width="60px" alt="Arctic Code Vault" /> | <img src="https://github.githubassets.com/images/modules/profile/achievements/galaxy-brain-default.png" width="60px" alt="Galaxy Brain" /> | <img src="https://github.githubassets.com/images/modules/profile/achievements/yolo-default.png" width="60px" alt="YOLO" /> |
-| **Merged PRs** | **Rapid Dispatch** | **Co-Authored Code** | **2020 Archive** | **Accepted Answers** | **Continuous Shipping** |
-
-</div>
 
 ---
 
