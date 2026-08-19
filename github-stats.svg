@@ -27,33 +27,38 @@
   <rect x="25" y="190" width="360" height="20" rx="10" fill="#22c55e" opacity="0.85"/>
   <text x="205" y="204" fill="#ffffff" font-size="11" font-weight="bold" text-anchor="middle">Focus: Full-Stack SaaS, Multi-Agent AI &amp; Web3</text>
 
-  <!-- Right Card: Exact Real Language Distribution -->
+  <!-- Right Card: Language & Stack Distribution (FIXED LAYOUT) -->
   <rect x="430" y="0" width="410" height="230" rx="12" fill="url(#stat-bg)" stroke="#30363d" stroke-width="1"/>
   <rect x="445" y="15" width="380" height="30" rx="6" fill="#161b22"/>
   <text x="455" y="35" fill="#a855f7" font-size="13" font-weight="bold">💻 Codebase Language &amp; Stack Distribution</text>
 
-  <!-- Java -->
-  <text x="455" y="75" fill="#e2e8f0" font-size="12" font-weight="600">Java 17 (Spring Boot 3.2) - 35.6%</text>
-  <rect x="655" y="65" width="160" height="12" rx="6" fill="#161b22"/>
-  <rect x="655" y="65" width="57" height="12" rx="6" fill="#ed8b00"/>
+  <!-- Java 17 -->
+  <text x="455" y="72" fill="#e2e8f0" font-size="11.5" font-weight="600">Java 17 (Spring Boot 3.2)</text>
+  <text x="810" y="72" fill="#7d8590" font-size="11.5" font-weight="bold" text-anchor="end">35.6%</text>
+  <rect x="455" y="78" width="355" height="8" rx="4" fill="#161b22"/>
+  <rect x="455" y="78" width="127" height="8" rx="4" fill="#ed8b00"/>
 
   <!-- TypeScript -->
-  <text x="455" y="105" fill="#e2e8f0" font-size="12" font-weight="600">TypeScript (Next.js 14 / AI) - 24.4%</text>
-  <rect x="655" y="95" width="160" height="12" rx="6" fill="#161b22"/>
-  <rect x="655" y="95" width="39" height="12" rx="6" fill="#3178c6"/>
+  <text x="455" y="106" fill="#e2e8f0" font-size="11.5" font-weight="600">TypeScript (Next.js 14 / AI)</text>
+  <text x="810" y="106" fill="#7d8590" font-size="11.5" font-weight="bold" text-anchor="end">24.4%</text>
+  <rect x="455" y="112" width="355" height="8" rx="4" fill="#161b22"/>
+  <rect x="455" y="112" width="87" height="8" rx="4" fill="#3178c6"/>
 
-  <!-- HTML / CSS -->
-  <text x="455" y="135" fill="#e2e8f0" font-size="12" font-weight="600">HTML5 &amp; Tailwind CSS v4 - 28.8%</text>
-  <rect x="655" y="125" width="160" height="12" rx="6" fill="#161b22"/>
-  <rect x="655" y="125" width="46" height="12" rx="6" fill="#06b6d4"/>
+  <!-- HTML + CSS -->
+  <text x="455" y="140" fill="#e2e8f0" font-size="11.5" font-weight="600">HTML5 &amp; Tailwind CSS v4</text>
+  <text x="810" y="140" fill="#7d8590" font-size="11.5" font-weight="bold" text-anchor="end">28.8%</text>
+  <rect x="455" y="146" width="355" height="8" rx="4" fill="#161b22"/>
+  <rect x="455" y="146" width="102" height="8" rx="4" fill="#06b6d4"/>
 
   <!-- JavaScript -->
-  <text x="455" y="165" fill="#e2e8f0" font-size="12" font-weight="600">JavaScript (React 19 / Node.js) - 11.2%</text>
-  <rect x="655" y="155" width="160" height="12" rx="6" fill="#161b22"/>
-  <rect x="655" y="155" width="18" height="12" rx="6" fill="#f7df1e"/>
+  <text x="455" y="174" fill="#e2e8f0" font-size="11.5" font-weight="600">JavaScript (React 19 / Node.js)</text>
+  <text x="810" y="174" fill="#7d8590" font-size="11.5" font-weight="bold" text-anchor="end">11.2%</text>
+  <rect x="455" y="180" width="355" height="8" rx="4" fill="#161b22"/>
+  <rect x="455" y="180" width="40" height="8" rx="4" fill="#f7df1e"/>
 
   <!-- Specialized -->
-  <text x="455" y="195" fill="#e2e8f0" font-size="12" font-weight="600">Solidity, Python &amp; PostGIS SQL (Core)</text>
-  <rect x="655" y="185" width="160" height="12" rx="6" fill="#161b22"/>
-  <rect x="655" y="185" width="160" height="12" rx="6" fill="#a855f7" opacity="0.8"/>
+  <text x="455" y="208" fill="#e2e8f0" font-size="11.5" font-weight="600">Solidity, Python &amp; PostGIS SQL</text>
+  <text x="810" y="208" fill="#7d8590" font-size="11.5" font-weight="bold" text-anchor="end">Core</text>
+  <rect x="455" y="214" width="355" height="8" rx="4" fill="#161b22"/>
+  <rect x="455" y="214" width="355" height="8" rx="4" fill="#a855f7" opacity="0.6"/>
 </svg>
