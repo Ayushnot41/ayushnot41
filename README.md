@@ -1,6 +1,6 @@
 <div align="center">
 
-<h3><code>ayush@github ~ $ whoami</code></h3>
+<h3><code>ayushx0@github ~ $ whoami</code></h3>
 
 <!-- AVI VASHISHTA BLOG STYLE: SMOOTH SELF-DRAWING ASCII PORTRAIT + 3D WORDMARK -->
 <table>
