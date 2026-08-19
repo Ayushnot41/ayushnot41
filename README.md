@@ -1,6 +1,6 @@
 <div align="center">
 
-<!-- ANIMATED TERMINAL HEADER BANNER (Avi Vashishta Blog Inspired SMIL/SVG Typing Animation) -->
+<!-- ANIMATED TERMINAL HEADER BANNER (Avi Vashishta Blog Style SMIL/SVG Typing Animation) -->
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 210" width="100%" height="210" style="background: #0d1117; border-radius: 14px; border: 1px solid #30363d; font-family: 'Fira Code', 'Cascadia Code', 'Courier New', monospace;">
   <style>
     .prompt { fill: #38bdf8; font-weight: bold; font-size: 15px; }
@@ -16,14 +16,14 @@
     }
   </style>
 
-  <!-- Window Header Bar -->
+  <!-- Terminal Window Bar -->
   <rect x="0" y="0" width="850" height="34" rx="14" ry="14" fill="#161b22" />
   <circle cx="22" cy="17" r="6" fill="#ff5f56" />
   <circle cx="42" cy="17" r="6" fill="#ffbd2e" />
   <circle cx="62" cy="17" r="6" fill="#27c93f" />
   <text x="425" y="22" text-anchor="middle" fill="#8b949e" font-size="12" font-weight="500">ayush@antigravity-cli:~ (zsh)</text>
 
-  <!-- Terminal Commands & Content -->
+  <!-- Commands & Info -->
   <text x="30" y="72" class="prompt">❯ <tspan class="command">whoami --verbose</tspan></text>
   
   <text x="30" y="112" class="title">Ayush Sarkar</text>
@@ -32,9 +32,9 @@
   <text x="30" y="178" class="prompt">❯ <tspan class="highlight">shipping --stack="Next.js 14, LangGraph, Supabase pgvector, Claude & Spring Boot"</tspan><tspan class="cursor">█</tspan></text>
 </svg>
 
-<br/>
+<br/><br/>
 
-<!-- TYPING HEADER WIDGET -->
+<!-- DYNAMIC TYPING SVG HEADER -->
 <a href="https://git.io/typing-svg">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&duration=2800&pause=900&color=38BDF8&center=true&vCenter=true&width=750&lines=AI+Tools+%26+Models+Engineer;Building+Multi-Agent+Pipelines+with+LangGraph;Full-Stack+Architect+(Next.js+14+%2B+Spring+Boot);Pioneering+Agentic+Workflows+with+Antigravity+%26+Claude+Code" alt="Typing SVG" />
 </a>
@@ -44,7 +44,6 @@
 [![Open to Work](https://img.shields.io/badge/Open%20to-Work-38bdf8?style=for-the-badge&logo=briefcase&logoColor=white)](https://www.linkedin.com/in/edit-with-ayush)
 [![GitHub Followers](https://img.shields.io/github/followers/Ayushnot41?style=for-the-badge&color=1f6feb&labelColor=0d1117&logo=github)](https://github.com/Ayushnot41)
 [![Agentic AI](https://img.shields.io/badge/Agentic_AI-Antigravity_%7C_Claude_Code_%7C_OpenCoder-7c3aed?style=for-the-badge&labelColor=0d1117)](https://github.com/Ayushnot41)
-<img src="https://komarev.com/ghpvc/?username=Ayushnot41&label=Profile%20Views&color=38bdf8&style=for-the-badge" alt="Profile views"/>
 
 </div>
 
@@ -63,61 +62,58 @@
 
 ---
 
-### 🚀 Featured Projects
+### 🚀 Top Priority Projects
 
-#### 🔮 **VibeForge** — *AI-Powered Future Self Simulator & Life Architect*
+#### 🔮 **VibeForge** — *AI-Powered Future Self Simulator & Life Architect* (Priority #1)
 > *Simulate parallel futures, visualize 3D timelines, and generate DALL-E 3 synthetic memories.*
 
-<div align="center">
-
-```
-┌─────────────────────────────────────────────────────────────────────────────┐
-│                             VIBEFORGE ARCHITECTURE                          │
-│                                                                             │
-│  [ Next.js 14 App Router ] ──► [ Edge API Routes ] ──► [ LangGraph Pipeline ] │
-│             │                         │                        │            │
-│             ▼                         ▼                        ▼            │
-│    Three.js 3D Timeline        Supabase pgvector        Groq Llama 3.3 70B   │
-│    Framer Motion & Tailwind   PostgreSQL Embeddings     Claude Sonnet 4      │
-└─────────────────────────────────────────────────────────────────────────────┘
+```mermaid
+flowchart LR
+    A[User Goal Input] --> B[LangGraph Multi-Agent Pipeline]
+    B --> C1[Claude Sonnet 4 Engine]
+    B --> C2[Groq Llama 3.3 70B]
+    B --> D[DALL-E 3 Memory Generator]
+    B --> E[ElevenLabs Voice Narration]
+    C1 --> F[Three.js 3D Timeline UI]
+    C2 --> G[Supabase pgvector DB]
 ```
 
-</div>
-
-- **3 Parallel Scenario Engines**: Simulates optimistic, realistic, and pessimistic life outcomes using Claude Sonnet 4 & Llama 3.3 70B orchestrated via **LangGraph**.
-- **Synthetic Future Memories**: DALL-E 3 proxy engine generating realistic snapshots of key life milestones.
-- **Voice Narration & Actionable Schedules**: ElevenLabs Text-to-Speech narration paired with concrete 12-week deployment plans and habit trackers.
-- **3D Interactive Timeline**: Immersive particle system visualization using Three.js, React Three Fiber, and Drei.
-- **Tech**: `Next.js 14`, `TypeScript`, `Tailwind CSS v4`, `LangGraph`, `Claude Sonnet 4`, `Groq Llama 3.3`, `Supabase pgvector`, `Three.js`, `ElevenLabs`, `Stripe`.
+- **Features**: 3 parallel life trajectory simulations, automated time-travel obstacle loop, 3D particle timeline, ElevenLabs voice narration, and 12-week deployment plans.
+- **Tech Stack**: `Next.js 14`, `TypeScript`, `Tailwind CSS v4`, `LangGraph`, `Claude Sonnet 4`, `Groq Llama 3.3`, `Supabase pgvector`, `Three.js`, `ElevenLabs`, `Stripe`.
 
 ---
 
-#### 💼 **PayrollPro** — *Enterprise Salary & Tax SaaS*
+#### 📡 **Sentinel AI** — *Live Location Tracker & Threat Analytics* (Priority #2)
+> *Real-time GPS telemetry ingestion, spatial geofencing, and sub-second alert dispatch.*
+
+```mermaid
+flowchart LR
+    GPS[GPS Sensor Stream] --> WS[WebSocket Ingestion Gateway]
+    WS --> Engine[Haversine Spatial Threat Engine]
+    Engine --> PostGIS[(PostgreSQL + PostGIS)]
+    Engine --> Map[Mapbox GL Live Dashboard]
+```
+
+- **Features**: Real-time location tracking, dynamic polygon geofencing, telemetry playback, and instantaneous perimeter threat notifications.
+- **Tech Stack**: `Next.js 14`, `Node.js`, `WebSockets (Socket.io)`, `Mapbox GL`, `PostgreSQL + PostGIS`, `Tailwind CSS`.
+- 💻 [GitHub Repository](https://github.com/Ayushnot41/Sentinel-AI)
+
+---
+
+#### 💼 **PayrollPro** — *Enterprise Salary & Tax Compliance SaaS*
 > *Automating Indian salary computation, PF/ESI/TDS compliance, and tax regime comparisons.*
 
-<div align="center">
-
-<img src="https://github-readme-stats.vercel.app/api/pin/?username=Ayushnot41&repo=payrolpro&theme=dark&border_color=38bdf8&title_color=38bdf8&bg_color=0d1117" width="60%" alt="PayrollPro"/>
-
-</div>
-
 - **Features**: Real-time tax regime optimization (old vs new), automated PF/ESI/TDS calculations, interactive Recharts analytics, and bulk PDF/Excel exports.
-- **Tech**: `Next.js 14`, `TypeScript`, `Tailwind CSS`, `Zustand`, `Shadcn UI`, `Recharts`, `jsPDF`, `XLSX`.
+- **Tech Stack**: `Next.js 14`, `TypeScript`, `Tailwind CSS`, `Zustand`, `Shadcn UI`, `Recharts`, `jsPDF`, `XLSX`.
 - 🔗 [Live Application](https://payrolpro.vercel.app) · 💻 [GitHub Repository](https://github.com/Ayushnot41/payrolpro)
 
 ---
 
-#### ⛓ **SkillBadge Verifier** — *Decentralized Soulbound Credential dApp*
-> *On-chain Ethereum Sepolia verification platform for non-transferable skill credentials.*
-
-<div align="center">
-
-<img src="https://github-readme-stats.vercel.app/api/pin/?username=Ayushnot41&repo=SkillVerifier2026&theme=dark&border_color=38bdf8&title_color=38bdf8&bg_color=0d1117" width="60%" alt="SkillBadge Verifier"/>
-
-</div>
+#### ⛓ **SkillBadge Verifier** — *Decentralized Credential dApp*
+> *On-chain Ethereum Sepolia verification platform for non-transferable soulbound credentials.*
 
 - **Features**: Instant institution badge issuing, Soulbound NFT metadata generation, zero-fee verification interface, and MetaMask wallet synchronization.
-- **Tech**: `React 19`, `Vite`, `Solidity`, `ethers.js v6`, `Ethereum Sepolia`, `Framer Motion`.
+- **Tech Stack**: `React 19`, `Vite`, `Solidity`, `ethers.js v6`, `Ethereum Sepolia`, `Framer Motion`.
 - 🔗 [Live Application](https://skill-verifier2026.vercel.app) · 💻 [GitHub Repository](https://github.com/Ayushnot41/SkillVerifier2026)
 
 ---
@@ -125,46 +121,42 @@
 #### 🏨 **Hotel Reservation System** — *Enterprise Java Booking Platform*
 > *OTP-authenticated hotel booking portal covering 16+ Indian tourist destinations.*
 
-<div align="center">
-
-<img src="https://github-readme-stats.vercel.app/api/pin/?username=Ayushnot41&repo=hotel-reservation-system&theme=dark&border_color=38bdf8&title_color=38bdf8&bg_color=0d1117" width="60%" alt="Hotel Reservation System"/>
-
-</div>
-
 - **Features**: Dual role-based dashboards (Admin & User), Fast2SMS OTP authentication, room inventory tracking, and Spring Security access rules.
-- **Tech**: `Java 17`, `Spring Boot 3.2`, `Spring Security`, `Thymeleaf`, `Bootstrap 5`, `H2 DB`, `Fast2SMS API`.
+- **Tech Stack**: `Java 17`, `Spring Boot 3.2`, `Spring Security`, `Thymeleaf`, `Bootstrap 5`, `H2 DB`, `Fast2SMS API`.
 - 💻 [GitHub Repository](https://github.com/Ayushnot41/hotel-reservation-system)
 
 ---
 
-### 🛠️ Tech Stack Matrix
+### 🛠️ Tech Stack & Skills
 
-| Category | Technologies & Tools |
-| :--- | :--- |
-| **Languages** | `Java 17` `TypeScript` `JavaScript` `Python` `Solidity` `SQL` `HTML5/CSS3` |
-| **Frontend** | `Next.js 14 (App Router)` `React 18/19` `Vite` `Tailwind CSS v4` `Bootstrap 5` |
-| **3D & Animation** | `Three.js` `React Three Fiber` `Drei` `Framer Motion` |
-| **Backend & Security** | `Spring Boot 3.2` `Spring Security` `Node.js` `Next.js Edge API` `REST` `GraphQL` |
-| **AI & Multi-Agent** | `Google Antigravity CLI` `Claude Code CLI` `OpenCoder` `LangGraph` `Claude API` `Groq (Llama 3.3)` |
-| **Database & Vector DB** | `Supabase` `PostgreSQL` `pgvector` `H2 DB` `Upstash Redis` |
-| **Web3 & Cloud** | `ethers.js v6` `Ethereum Sepolia` `Vercel` `Docker` `Git` `GitHub Actions` |
+<div align="center">
+
+**Languages & Core Development**
+<br/>
+<img src="https://skillicons.dev/icons?i=java,ts,js,python,solidity,html,css,postgres" alt="Languages"/>
+
+<br/><br/>
+
+**Frontend & 3D Web**
+<br/>
+<img src="https://skillicons.dev/icons?i=nextjs,react,vite,tailwind,bootstrap,threejs" alt="Frontend"/>
+
+<br/><br/>
+
+**Backend, Database & Cloud DevOps**
+<br/>
+<img src="https://skillicons.dev/icons?i=nodejs,spring,docker,vercel,git,github" alt="Backend and DevOps"/>
+
+</div>
 
 ---
 
-### 📊 GitHub Analytics & Contributions
+### 📊 GitHub Activity & Analytics
 
 <div align="center">
 
 <img src="https://github-readme-stats.vercel.app/api?username=Ayushnot41&show_icons=true&theme=dark&bg_color=0d1117&title_color=38bdf8&text_color=c9d1d9&icon_color=4ade80&border_color=30363d&hide_border=false" width="48%" alt="GitHub Stats" />
 <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Ayushnot41&layout=compact&theme=dark&bg_color=0d1117&title_color=38bdf8&text_color=c9d1d9&border_color=30363d&hide_border=false" width="48%" alt="Top Languages" />
-
-<br/><br/>
-
-<img src="https://streak-stats.demolab.com?user=Ayushnot41&theme=dark&background=0d1117&stroke=30363d&border=30363d&fire=ff5f56&ring=38bdf8&currStreakLabel=38bdf8" width="97%" alt="GitHub Streak" />
-
-<br/><br/>
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=Ayushnot41&theme=github-dark&color=38bdf8&line=38bdf8&point=ffffff&area=true&hide_border=true" width="97%" alt="Contribution Graph" />
 
 </div>
 
